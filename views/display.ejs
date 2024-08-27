@@ -1,0 +1,17 @@
+<%- include('header') -%>
+
+<div class="text-body">
+
+  <% for(var i=0;i<data.length;i++){ %>
+
+    <% if( data[i].id  === blogId){  %>
+
+    <h1 class="title"> <%= data[i].header %> </h1>
+    <p> <%= data[i].body %></p>
+    <%   }                      %>
+
+  <%   }                      %>
+
+</div>
+
+<%- include('footer') -%>

@@ -1,0 +1,37 @@
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+#navbarNav{
+  justify-content: flex-end;
+}
+
+.navbar{
+  padding: 30px 8.12rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #FFF1F4  !important;
+}
+
+.footer{
+  text-align: center;
+  background-color: #7FFFD4;
+  padding: 30px 0px;
+}
+
+.text-body{
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+input[type="text"]{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+textarea{
+  width: 100%;
+  margin-bottom: 20px;
+
+}

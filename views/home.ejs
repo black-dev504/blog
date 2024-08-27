@@ -1,0 +1,26 @@
+<%- include('header') -%>
+
+<div class="text-body">
+  <h1 class="title">Home</h1>
+  <p> Compressing objects: 100% (10/10), done.
+Writing objects: 100% (14/14), 12.15 KiB | 4.05 MiB/s, done.
+Total 14 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/black-dev504/to-do-list.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+(base) macos@Ussys-MacBook-Pro todolist-v1 % cd ..
+(base) macos@Ussys-MacBook-Pro PLAYGROUND % mkdir blog
+(base) macos@Ussys-MacBook-Pro PLAYGROUND % cd blog
+(base) macos@Ussys-MacBook-Pro blog % git init
+I</p>
+
+<% data.forEach((post) => { %>
+  <h1> <%= post.header %> </h1>
+  <p> <%= post.sub %> <a  id=" <%= post.id %> "href="/display.ejs/<%= post.id %> ">read more</a></p>
+<%  }); %>
+
+
+</div>
+
+<%- include('footer') -%>
